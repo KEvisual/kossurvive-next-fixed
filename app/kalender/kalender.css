@@ -1,0 +1,53 @@
+/* Style dasar calendar agar gelap */
+.dark-calendar {
+  background-color: #1f2937; /* bg-gray-800 */
+  color: #e5e7eb; /* text-gray-200 */
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  border: 1px solid #374151; /* border-gray-700 */
+}
+
+/* Hover hari */
+.dark-calendar .react-calendar__tile:hover {
+  background: #065f46; /* hijau tua */
+  color: white;
+  border-radius: 0.5rem;
+}
+
+/* Hari yang dipilih */
+.dark-calendar .react-calendar__tile--active {
+  background: #10b981 !important; /* emerald-500 */
+  color: white !important;
+  border-radius: 0.5rem;
+}
+
+/* Hari ini */
+.dark-calendar .react-calendar__tile--now {
+  background: #2563eb; /* biru */
+  color: white;
+  border-radius: 0.5rem;
+}
+
+/* Hari Minggu warna merah */
+.dark-calendar .react-calendar__month-view__days__day--weekend {
+  color: #f87171; /* merah soft */
+}
+
+/* Header bulan & tahun */
+.dark-calendar .react-calendar__navigation {
+  background: transparent;
+  color: #f3f4f6;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.dark-calendar .react-calendar__navigation button {
+  color: #d1d5db;
+  min-width: 44px;
+  background: none;
+}
+
+.dark-calendar .react-calendar__navigation button:hover {
+  background: #374151;
+  border-radius: 0.5rem;
+}
